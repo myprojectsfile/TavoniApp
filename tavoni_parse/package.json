@@ -1,0 +1,28 @@
+{
+  "name": "itps",
+  "version": "1.4.0",
+  "description": "Tavoni Parse Server",
+  "main": "server.js",
+  "repository": {
+    "type": "git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "~4.11.x",
+    "parse": "^2.2.1",
+    "parse-server": "~2.2.6",
+    "serve-static": "^1.13.2"
+  },
+  "scripts": {
+    "api": "nodemon server.js",
+    "dash": "parse-dashboard --appId TAVONI_UCZVB5TLA4 --masterKey 5n84nvuhXrRt2C5L --serverURL \"http://localhost:1337/parse\" --appName Tavoni"
+  },
+  "engines": {
+    "node": ">=4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

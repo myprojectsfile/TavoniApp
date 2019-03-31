@@ -1,0 +1,50 @@
+{
+  "name": "tavoni",
+  "version": "0.0.1",
+  "description": "Tavoni Client app",
+  "productName": "Tavoni",
+  "author": "Ahmadi.Mohammad",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --fix --ext .js,.vue src",
+    "dev": "quasar dev",
+    "serve": "nodemon server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.3.4",
+    "axios": "^0.18.0",
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "parse": "^2.2.1",
+    "serve-static": "^1.13.2",
+    "vue-i18n": "^8.8.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.3.0",
+    "nodemon": "^1.18.10",
+    "quasar-cli": "^0.17.0",
+    "strip-ansi": "=3.0.1"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
